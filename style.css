@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1675353363698-a8862751bb4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDcwfGlVSXNuVnRqQjBZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+}
+
+section{
+    padding: 40px;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section div{
+    padding: 0px 40px;
+    height: 30vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+section div form {
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 50px 0px;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    -webkit-box-shadow: 2px 2px 34px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 34px 10px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 34px 10px rgba(0,0,0,0.75);
+}
+section form input{
+    width: 70%;
+    margin-bottom: 10px;
+}
+section form button{
+margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+section span {
+    margin-top: 80px;
+    -webkit-box-shadow: 2px 2px 34px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 34px 10px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 34px 10px rgba(0,0,0,0.75);
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 70vh;
+    padding: 40px 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section span input{
+    width: 50%;
+    height: 7vh;
+}
